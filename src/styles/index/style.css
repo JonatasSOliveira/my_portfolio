@@ -1,0 +1,14 @@
+.screen_initial {
+  background-color: #282a36;
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+  padding: 10px;
+  color: #fff;
+  font-family: 'Fira Code', monospace;
+}
+
+.screen_initial .section_title {
+  color: #ffb86c;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
