@@ -5,10 +5,20 @@
   padding: 10px;
   color: #fff;
   font-family: 'Fira Code', monospace;
+  overflow: auto;
 }
 
 .screen_initial .section_title {
   color: #ffb86c;
   text-decoration: underline;
+}
+
+.screen_initial #section_competence .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
