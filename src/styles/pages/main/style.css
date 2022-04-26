@@ -1,21 +1,24 @@
 .screen_initial {
   background-color: #282a36;
-  width: calc(100vw);
-  height: calc(100vh);
+  width: 100%;
+  min-height: calc(100vh);
   color: #fff;
   font-family: 'Fira Code', monospace;
   overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .screen_initial .container {
   width: 80%;
-  height: 100%;
   border-width: 0 1px 0 1px;
   border-color: #6272a4;
   border-style: solid;

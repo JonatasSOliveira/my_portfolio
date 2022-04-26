@@ -1,18 +1,18 @@
 @import "../../variables/variables.sass"
-    
+
 .screen_initial
     background-color: $backgroud
-    width: calc(100vw)
-    height: calc(100vh)
+    width: 100%
+    min-height: calc(100vh)
     color: #fff
     font-family: 'Fira Code', monospace
     overflow: auto
     display: flex
-    justify-content: center
+    align-items: center
+    flex-direction: column
 
     .container
         width: 80%
-        height: 100%
         border-width: 0 1px 0 1px
         border-color: $comment
         border-style: solid
