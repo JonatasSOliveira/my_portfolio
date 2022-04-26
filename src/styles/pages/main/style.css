@@ -1,19 +1,33 @@
 .screen_initial {
   background-color: #282a36;
-  width: calc(100vw - 20px);
-  height: calc(100vh - 20px);
-  padding: 10px;
+  width: calc(100vw);
+  height: calc(100vh);
   color: #fff;
   font-family: 'Fira Code', monospace;
   overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.screen_initial .section_title {
+.screen_initial .container {
+  width: 80%;
+  height: 100%;
+  border-width: 0 1px 0 1px;
+  border-color: #6272a4;
+  border-style: solid;
+  padding: 0 5%;
+}
+
+.screen_initial .container .section_title {
   color: #ffb86c;
   text-decoration: underline;
 }
 
-.screen_initial #section_competence .container {
+.screen_initial .container #section_competence .section_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

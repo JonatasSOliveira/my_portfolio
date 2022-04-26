@@ -1,18 +1,29 @@
+@import "../../variables/variables.sass"
+    
 .screen_initial
-    background-color: #282a36
-    width: calc(100vw - 20px)
-    height: calc(100vh - 20px)
-    padding: 10px
+    background-color: $backgroud
+    width: calc(100vw)
+    height: calc(100vh)
     color: #fff
     font-family: 'Fira Code', monospace
     overflow: auto
+    display: flex
+    justify-content: center
 
-    .section_title
-        color: #ffb86c
-        text-decoration: underline
+    .container
+        width: 80%
+        height: 100%
+        border-width: 0 1px 0 1px
+        border-color: $comment
+        border-style: solid
+        padding: 0 5%
 
-    #section_competence
-        .container
-            display: flex
-            flex-wrap: wrap
-            width: 100%
+        .section_title
+            color: $orange
+            text-decoration: underline
+
+        #section_competence
+            .section_container
+                display: flex
+                flex-wrap: wrap
+                width: 100%
