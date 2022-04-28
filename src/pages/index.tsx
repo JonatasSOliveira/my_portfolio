@@ -1,5 +1,6 @@
 import "../styles/normalize.css";
 import "../styles/pages/main/style.css";
+import "../styles/global/style.css"
 
 import * as React from "react";
 

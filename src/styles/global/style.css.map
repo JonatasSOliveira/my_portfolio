@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACN,KAAK,ECGA,OAAO;EDFZ,WAAW,EAAE,IAAI;CAAG",
+    "sources": [
+        "style.sass",
+        "../variables/variables.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}

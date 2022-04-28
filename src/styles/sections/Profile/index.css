@@ -1,0 +1,32 @@
+.section_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_profile .greetings, .section_profile .subtitle {
+  width: auto;
+}
+
+.section_profile .greetings, .section_profile .title, .section_profile .subtitle {
+  margin: 0;
+}
+
+.section_profile .greetings {
+  text-align: left;
+}
+
+.section_profile .title {
+  text-align: center;
+}
+
+.section_profile .subtitle {
+  text-align: right;
+}
+/*# sourceMappingURL=index.css.map */
