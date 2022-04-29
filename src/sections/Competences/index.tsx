@@ -1,3 +1,5 @@
+import "../../styles/sections/Competences/style.css";
+
 import React from "react";
 
 // images
@@ -15,9 +17,9 @@ import Competence from "../../components/Competence/index";
 
 function Competences() {
   return (
-    <section id="section_competence">
+    <section className="section_competences">
       <h2 className="section_title">Competences</h2>
-      <div className="section_container">
+      <div className="container">
         <Competence image={logoJS} text="Javascript" />
         <Competence image={logoGit} text="Git" />
         <Competence image={logoGitHub} text="GitHub" />

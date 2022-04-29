@@ -1,5 +1,4 @@
-.component_header {
-  width: 100%;
+.section_competences .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,14 +8,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #6272a4;
-  background-color: #282a36;
-  position: fixed;
-  top: 0;
-  height: 7.5vh;
-}
-
-.component_header.hide {
-  display: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

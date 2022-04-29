@@ -17,25 +17,24 @@
           flex-direction: column;
 }
 
-.screen_initial .container {
-  width: 80%;
-  border-width: 0 1px 0 1px;
-  border-color: #6272a4;
-  border-style: solid;
-  padding: 0 5%;
+@media (orientation: portrait) {
+  .screen_initial > .container {
+    width: 95%;
+  }
 }
 
-.screen_initial .container .section_title {
+@media (orientation: landscape) {
+  .screen_initial > .container {
+    width: 80%;
+    border-width: 0 1px 0 1px;
+    border-color: #6272a4;
+    border-style: solid;
+    padding: 0 5%;
+  }
+}
+
+.screen_initial .section_title {
   color: #ffb86c;
   text-decoration: underline;
-}
-
-.screen_initial .container #section_competence .section_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

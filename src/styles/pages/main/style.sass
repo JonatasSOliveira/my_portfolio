@@ -11,19 +11,18 @@
     align-items: center
     flex-direction: column
 
-    .container
-        width: 80%
-        border-width: 0 1px 0 1px
-        border-color: $comment
-        border-style: solid
-        padding: 0 5%
+    @media (orientation: portrait)
+        > .container
+            width: 95%
 
-        .section_title
-            color: $orange
-            text-decoration: underline
+    @media (orientation: landscape)
+        > .container
+            width: 80%
+            border-width: 0 1px 0 1px
+            border-color: $comment
+            border-style: solid
+            padding: 0 5%
 
-        #section_competence
-            .section_container
-                display: flex
-                flex-wrap: wrap
-                width: 100%
+    .section_title
+        color: $orange
+        text-decoration: underline
