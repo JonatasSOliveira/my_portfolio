@@ -2,4 +2,16 @@
   color: #ffb86c;
   font-weight: bold;
 }
+
+::-webkit-scrollbar {
+  width: 7.5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #44475a;
+}
+
+::-webkit-scrollbar-track {
+  background: #282a36;
+}
 /*# sourceMappingURL=style.css.map */
