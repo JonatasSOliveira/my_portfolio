@@ -17,6 +17,7 @@
 
 .section_profile .greetings, .section_profile .title, .section_profile .subtitle {
   margin: 0;
+  margin-bottom: 1px;
 }
 
 .section_profile .greetings {

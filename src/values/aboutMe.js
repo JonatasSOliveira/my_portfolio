@@ -1,4 +1,4 @@
-export default `
+const aboutMe =  `
     Já estou envolvido na tecnologia desde os meus 14 anos,
     graças ao curso Técnico em Informática Integrado ao Ensino Médio do IFPR
     - Campus Paranavaí, então, logo na minha adolescência, consegui muito
@@ -30,3 +30,5 @@ export default `
     pouco mais das tecnologias que uso no dia a dia e também outras, como o
     Typescript e Electron.
 `;
+
+export default aboutMe;

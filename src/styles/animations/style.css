@@ -1,0 +1,46 @@
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blinkCursor {
+  from {
+    border-right-color: #fff;
+  }
+  to {
+    border-right-color: #282a36;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: #fff;
+  }
+  to {
+    border-right-color: #282a36;
+  }
+}
+
+.animation_typewriter {
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typewriter 3s steps(25) 1s 1 normal both, blinkCursor 0.6s steps(12) infinite normal;
+          animation: typewriter 3s steps(25) 1s 1 normal both, blinkCursor 0.6s steps(12) infinite normal;
+  border-right: 2px solid #282a36;
+}
+/*# sourceMappingURL=style.css.map */
