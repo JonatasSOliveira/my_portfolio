@@ -14,8 +14,9 @@ import logoReact from "../../images/logo_reactjs.png";
 import logoElectron from "../../images/logo_electron.png";
 
 import Competence from "../../components/Competence/index";
+import { PageProps } from "../../components/Page";
 
-function Competences() {
+function Competences({ language }: PageProps) {
   return (
     <section className="section_competences">
       <h2 className="section_title">Competences</h2>

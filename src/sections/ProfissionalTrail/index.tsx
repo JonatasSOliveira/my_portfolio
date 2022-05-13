@@ -1,9 +1,10 @@
 import React from "react";
+import { PageProps } from "../../components/Page";
 
-function ProfissionalRail() {
+function ProfissionalTrail({ language }: PageProps) {
   return (
     <section>
-      <h2 className="section_title">My Profissional Rail</h2>
+      <h2 className="section_title">My Profissional Trail</h2>
       <ul>
         <li>
           <p>ÁPICE SISTEMAS</p>
@@ -15,4 +16,4 @@ function ProfissionalRail() {
   );
 }
 
-export default ProfissionalRail;
+export default ProfissionalTrail;

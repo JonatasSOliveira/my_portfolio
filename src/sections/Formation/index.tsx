@@ -1,6 +1,7 @@
 import React from "react";
+import { PageProps } from "../../components/Page";
 
-function Formation() {
+function Formation({ language }: PageProps) {
   return (
     <section>
       <h2 className="section_title">My Formation</h2>

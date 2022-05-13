@@ -1,8 +1,9 @@
 import "../../styles/sections/Profile/index.css";
 
 import React from "react";
+import { PageProps } from "../../components/Page";
 
-function Profile() {
+function Profile({ language }: PageProps) {
   return (
     <section className="section_profile">
       <div>

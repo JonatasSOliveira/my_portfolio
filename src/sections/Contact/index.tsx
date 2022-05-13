@@ -3,8 +3,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 import React from "react";
+import { PageProps } from "../../components/Page";
 
-function Contact() {
+function Contact({ language }: PageProps) {
   return (
     <section>
       <h2 className="section_title">Contact</h2>
